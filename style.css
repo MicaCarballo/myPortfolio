@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+.card h2{
+    font-size: 1.5rem;
+}
+.project {
+    padding: 2rem;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    display: block;
+    overflow: auto;
+    background: #EAE7DE;
+   
+
+}
+
+.project h1 {
+    letter-spacing: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+
+
+}
+
+.box {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-bottom: 5rem;
+    overflow: auto;
+    
+
+
+
+
+
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+   
+    width: 19rem;
+    min-height: fit-content;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+  
+    
+
+
+
+
+
+
+
+
+}
+
+.card:hover {
+    box-shadow: 0 0 10px white, 0 0 13px beige, 0 0 15px beige;
+    transition: box-shadow 0.5s;
+}
+
+.card-image {
+
+    height: 150px;
+    margin-bottom: 1rem;
+    background-size: contain;
+    
+    overflow: hidden;
+
+
+}
+
+
+.card h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card p {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.card .links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card a {
+
+    display: block;
+    width: 2rem;
+    margin: 2rem;
+
+
+}
+
+.card a i {
+    color: black;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+.card a i:hover {
+    color: white;
+    text-shadow: 0 0 10px white, 0 0 13px beige, 0 0 15px beige;
+}
+.card-0 {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./paraCuando.png);
+    
+
+}
+
+.card-1 {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./academlo.png);
+    
+
+}
+
+.card-2 {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./RMApp.jpg);
+
+}
+
+.card-3 {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./socialMica.png);
+    
+
+
+}
+.card-4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./weatherApp.jpg);
+}
+.card-5{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./PokedexApp.jpg);
+}
+
+.card-7{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./wl.png);
+}
+.card-8{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./notes.png);
+}
+.card-9{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./courses.png);
+}
+
+.notshow{
+    opacity: 0;
+    -moz-transition: all 1200ms ease-out;
+    -webkit-transition: all 1200ms ease-out;
+    -o-transition: all 1200ms ease-out;
+    transition: all 1200ms ease-out;
+    -moz-transform: translate3d(0px, 400px, 0px);
+    -webkit-transform: translate3d(0px, 400px, 0px);
+    -o-transform: translate(0px, 400px);
+    -ms-transform: translate(0px, 400px);
+    transform: translate3d(0px, 400, 0px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+
+.second{
+    transition-delay:150ms;
+}
+
+.third{
+    transition-delay: 200ms;
+}
+.fourth{
+    transition-delay: 250ms;
+}
+.fith{
+    transition-delay: 300ms;
+}
+.sixth{
+    transition-delay: 350ms;
+}
+.seven{
+    transition-delay: 400ms;
+}
+.eight{
+    transition-delay: 450ms; 
+
+}
+.ninth{
+    transition-delay: 500ms; 
+
+}
+
+.dark-mode{
+    filter: invert(100%);
+    
+};
+
+ 
+.more-work{
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+}
